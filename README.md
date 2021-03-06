@@ -36,4 +36,26 @@ The machine is trained in a training set where all data is clear. It learns cert
 
 ![image](https://user-images.githubusercontent.com/50169967/110218492-58935700-7eba-11eb-9c13-75c52f16ab1b.png)
 
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+# Fuzzy
+
+The basis of fuzzy logic is based on fuzzy sets and subsets. In the classical approach, an entity is either an element of a cluster or not. Mathematically, when the entity is an element of the set, it takes the value of "1” or “0” when it is not an element of the set. Fuzzy logic is the extension of the classical set representation. In the fuzzy asset set, each asset has a degree of membership. The degree of membership of assets can be any value in the range (0, 1). For instance, It might be 0.78.
+This paper focuses on Fuzzy Clustering:
+Fuzzy clustering is a clustering method where data points can belong in more than one group (“cluster”). Clustering divides data points into groups based in similarity between items and looks to find patterns or similarity between items in a set; Items in clusters should be as similar as possible to each other and as dissimilar as possible to items in other groups. Computationally, it’s much easier to create fuzzy boundaries than it is to settle on one cluster for one point.
+
+
+# Method and Approach 
+1) The final grades of the students were classified as A, B, C, D and a new column was added.
+2) Categorical data were translated into numerical data with Label Encoder.
+3) Data were divided into 33% test, 66% train set.
+4) 4 clusters has defined by using “fuzzycmeans”
+5) The final grades of the students were classified as A, B, C, D and a new column was added.
+6) Categorical data were translated into numerical data with Label Encoder.
+7) Data were divided into 33% test, 66% train set.
+8) 4 clusters has defined by using “fuzzycmeans”
+9)Classified data is visualized
+
+![image](https://user-images.githubusercontent.com/50169967/110218571-baec5780-7eba-11eb-846b-42c6b3c1d301.png)
 
